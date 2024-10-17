@@ -17,7 +17,6 @@ export class ResultCalculator{
             year: year,
             interest: interestEarnedInYear,
             valueEndOfYear: investmentValue,
-            annualInvestment: data.annualInvestment,
             totalInterest: totalInterest,
             totalAmountInvested: data.initialInvestment + data.annualInvestment * year,
           });
